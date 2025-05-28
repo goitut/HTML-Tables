@@ -1,0 +1,59 @@
+.box{
+  background-color: blue;
+  padding: 15px;
+}
+
+#header{
+  background-color: brown;
+  color: white;
+  padding: 15px;
+}
+/* 
+h1, p, div{
+  color: chartreuse;
+} */
+
+.mydiv h1, .mydiv p, .mydiv{
+  color: chartreuse;
+}
+
+.mydiv{
+  color: chartreuse;
+}
+
+button:hover{
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+.mylist1 li:first-child{
+  color: red;
+  font-weight: 900;
+  list-style-type: circle;
+}
+
+.mylist1 li:last-child{
+  color: yellow;
+  text-decoration: none;
+}
+
+.mylist2 li:first-child{
+  color: red;
+  font-weight: 900;
+  list-style-type: circle;
+}
+
+.mylist3 li:last-child{
+  color: yellow;
+  text-decoration: none;
+}
+
+.mylist3 li:th-child(3){
+  color: yellow;
+  text-decoration: none;
+}
+
+.mylist3 li:nth-child(4){
+  color:pink;
+}
