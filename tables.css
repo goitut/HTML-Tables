@@ -1,0 +1,33 @@
+table{
+  border-collapse: collapse;
+  width: 100px;
+}
+th, td{
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+th{
+  background-color: #3f3c3c;
+}
+
+.zebra {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+.zebra th, td, th {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+.zebra tr:nth-child(even) {
+    background-color: rgb(205, 205, 220);
+}
+.zebra tr:hover {
+    background-color: #E0F7FA;
+}
+.zebra th {
+    background-color: #4CAF50;
+    color: white;
+}
