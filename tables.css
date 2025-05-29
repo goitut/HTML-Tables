@@ -24,6 +24,7 @@ th{
 .zebra tr:nth-child(even) {
     background-color: rgb(205, 205, 220);
 }
+
 .zebra tr:hover {
     background-color: #E0F7FA;
 }
