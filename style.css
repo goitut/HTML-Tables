@@ -1,0 +1,48 @@
+body {
+    background-color: whitesmoke;
+}
+
+p {
+    font-style: italic;
+    color: red; 
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+
+/* selector {
+    property: value;
+} */
+
+.unit-mm {
+    font-size: 5mm;
+}
+
+.unit-cm {
+    font-size: 1cm;
+}
+
+.unit-inch {
+    font-size: 0.5in;
+}
+
+.unit-quarter {
+    font-size: 400;
+}
+
+.unit-em {
+    font-size: 2em;
+}
+.unit-rem {
+    font-size: 1.5rem;
+}
+.unit-vw {
+    font-size: 5vw;
+}
+.unit-vh {
+    font-size: 5vh;
+}
+.unit-percent {
+    font-size: 150%;
+}

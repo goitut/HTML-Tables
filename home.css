@@ -1,59 +1,124 @@
-.box{
-  background-color: blue;
-  padding: 15px;
+.box {
+    background-color: blue;
+    padding: 15px;
 }
 
-#header{
-  background-color: brown;
-  color: white;
-  padding: 15px;
+#header {
+    background-color: brown;
+    color: white;
+    padding: 15px;
 }
-/* 
-h1, p, div{
-  color: chartreuse;
+
+/* h1, p, div {
+    color: chartreuse;
 } */
 
-.mydiv h1, .mydiv p, .mydiv{
-  color: chartreuse;
+/* .mydiv h1, .mydiv p, .mydiv div {
+    color: chartreuse;
+} */
+
+.mydiv h1{
+    color: orange;
 }
 
-.mydiv{
-  color: chartreuse;
+.mydiv p {
+    color: brown;
 }
 
-button:hover{
-  background-color: green;
-  color: white;
-  cursor: pointer;
+.mydiv {
+    color: chartreuse;
 }
 
-.mylist1 li:first-child{
-  color: red;
-  font-weight: 900;
-  list-style-type: circle;
+
+
+button:hover {
+    background-color: green;
+    color: white;
+    cursor: pointer;
 }
 
-.mylist1 li:last-child{
-  color: yellow;
-  text-decoration: none;
+.mylist1 ol li:first-child {
+    color: red;
+    font-weight: 900;
+    list-style-type: circle;
 }
 
-.mylist2 li:first-child{
-  color: red;
-  font-weight: 900;
-  list-style-type: circle;
+.mylist2 li:last-child {
+    color: yellow;
+    text-decoration: underline;
 }
 
-.mylist3 li:last-child{
-  color: yellow;
-  text-decoration: none;
+.mylist3 li:nth-child(4) {
+    color: blue;
+    text-decoration: underline;
 }
 
-.mylist3 li:th-child(3){
-  color: yellow;
-  text-decoration: none;
+.mylist4 li:nth-child(even) {
+    color: red;
+    font-weight: 900;
+    list-style-type: circle;
 }
 
-.mylist3 li:nth-child(4){
-  color:pink;
+.form1 input:focus {
+    border: 2px solid blue;
+    outline: none;
+    background-color: whitesmoke;
+}
+
+.form2 input:checked {
+    accent-color: green;
+}
+
+.form3 input:disabled {
+    background-color: lightgray;
+    color: darkgray;
+    cursor:  not-allowed;
+}
+
+.box2 h2{
+    color: blue;
+}
+
+.box2 .box3 h3{
+    color: crimson;
+}
+
+.box2 .box3 .box4 h4{
+    color: green;
+}
+
+.box2 .box3 .box4 p{
+    color: yellow;
+}
+
+/* .my-colors {
+    color: white;
+    background-color: black;
+} */
+
+/* Hexadecimal Code */
+
+.my-colors {
+    color: rgb(23, 34, 249);
+}
+
+.grd div{
+    height: 80px;
+    width: 100%;
+}
+
+.grd .topBottom {
+    background: linear-gradient(blue, yellow, green);
+}
+
+.grd .rightLeft {
+    background: linear-gradient(to right, blue, yellow, green);
+}
+
+.grd .mySpan1 {
+    color: red;
+}
+
+.grd .mySpan2 {
+    color: green;
 }
