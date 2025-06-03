@@ -1,3 +1,11 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* start of navbar styling */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -27,4 +35,43 @@
   font-weight: bold;
   font-size: 1.5em;
   color: #333;
+}
+
+/* end of navbar */
+
+/* start of responsive card layout */
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+.card {
+  flex: 1 1 200px;
+  background-color: #ffff;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+/* end of responsive card layout */
+
+/*  */
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  padding: 16px;
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  object-fit: cover;
 }
