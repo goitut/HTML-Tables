@@ -47,6 +47,7 @@ body{
   padding: 15px;
   border: 1px solid #ddd;
   background-color: #f9f9f9;
+  gap: 10px;
 }
 
 .card {
@@ -66,6 +67,7 @@ body{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   padding: 16px;
+  gap: 16px;
 }
 
 .image-grid img {
