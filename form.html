@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/form.css">
+  <title></title>
+</head>
+
+<body>
+  <div class="form">
+    <h1>Apply to Zindua School</h1>
+    <p>Learn to code today and launch a lucrative career in tech.</p>
+  </div>
+
+  <form>
+    <div class="fullNname">
+      <div class="fname">
+        <label class="required" for="fname">First name</label><br>
+        <input type="text" id="fname" name="fname" value="" placeholder="Nelson">
+      </div>
+
+
+      <div class="lname">
+        <label class="required" for="lname">Last name</label><br>
+        <input type="text" id="lname" name="lname" value="" placeholder="Mandela">
+      </div>
+    </div>
+
+
+    <br>
+    <br>
+
+    <label class="required" for="phone">Phone Number</label>
+    <br>
+    <select>
+      <option value="+93">: Afghanistan (+93)</option>
+      <option value="+355">: Albania (+355)</option>
+      <option value="+213">: Algeria (+213)</option>
+      <option value="+376">: Andorra (+376)</option>
+      <option value="+244">: Angola (+244)</option>
+      <option value="+1">: Anguilla (+1)</option>
+      <option value="+1">: Antigua and Barbuda (+1)</option>
+      <option value="+54">:flag-ar: Argentina (+54)</option>
+    </select>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="123456789">
+
+
+    <br>
+    <br>
+
+    <label class="required" for="lname">Email Address</label>
+    <br>
+    <input type="text" id="emai" name="email" value="" placeholder="nelsonmandela@gmail.com">
+
+    <br>
+    <br>
+
+
+    <label class="required" for="country">Choose your preffered program</label>
+    <br>
+    <select name="program" id="program">
+      <option value="">-Select-</option>
+      <option value="software">Software Egineering</option>
+      <option value="data">Data science</option>
+      <option value="analytics">Data Analytics</option>
+      <option value="frontend">Frontend Development</option>
+      <option value="devops">DevOps Engineering (For Advanced Devs)</option>
+      <option value="ssd">Undecided. Help me choose a program</option>
+    </select>
+
+    <br>
+    <br>
+
+    <label class="required" for="schedule">Choose your preffered schedule </label>
+    <br>
+    <select name="schedule" id="schedule">
+      <option value="">-Select-</option>
+      <option value="software">Part-Time</option>
+      <option value="ssd">Full-Time</option>
+    </select>
+
+    <br>
+    <br>
+
+    <button>Complete Application</button>
+
+</body>
+
+</html>
